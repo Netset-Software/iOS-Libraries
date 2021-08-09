@@ -19,7 +19,6 @@ class MyListingVc: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         activityLoader.startAnimating()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             self.objVM.fetchListing {
                 self.listTblView.reloadData()
                 self.activityLoader.stopAnimating()
@@ -27,8 +26,6 @@ class MyListingVc: UIViewController {
             } onError: {
                 self.activityLoader.stopAnimating()
             }
-
-        }
         
     }
 }
