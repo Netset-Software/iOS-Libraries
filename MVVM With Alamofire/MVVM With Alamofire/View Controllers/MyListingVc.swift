@@ -11,8 +11,9 @@ class MyListingVc: UIViewController {
     
     @IBOutlet weak var listTblView: UITableView!
     @IBOutlet weak var activityLoader: UIActivityIndicatorView!
-    var objVM = MyListingVM()
     
+    var objVM = MyListingVM()
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
