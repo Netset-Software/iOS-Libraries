@@ -1,4 +1,4 @@
-# Shiemmer Effect
+# Shimmer Effect
 An easy way to add a shimmering effect to any table view , Collection View and custom view with just single line of code. It is useful as an unobtrusive loading indicator. This is a network request waiting for the framework, the framework to increase the dynamic effect, convenient and fast, a line of code can be used.
 
 
@@ -7,13 +7,13 @@ An easy way to add a shimmering effect to any table view , Collection View and c
 <table>
 <tr>
 <td>
-<img src="https://github.com/Netset-Software/iOS-Libraries/blob/Shimmer-Effect/Screenshots/List.gif" width="330" height="330">
+<img src="https://github.com/Netset-Software/iOS-Libraries/blob/Shimmer-Effect/Screenshots/list.gif" width="330" height="600">
 </td>
-<td><img src="https://github.com/Netset-Software/iOS-Libraries/blob/Shimmer-Effect/Screenshots/Collection.gif" width="330" height="330"></td>
+<td><img src="https://github.com/Netset-Software/iOS-Libraries/blob/Shimmer-Effect/Screenshots/Collection.gif" width="330" height="600"></td>
   </tr>
   
   <td>
-<img src="https://github.com/Netset-Software/iOS-Libraries/blob/Shimmer-Effect/Screenshots/CustomView.gif" width="330" height="330">
+<img src="https://github.com/Netset-Software/iOS-Libraries/blob/Shimmer-Effect/Screenshots/customView.gif" width="330" height="600">
 </td>
   
   </table>
