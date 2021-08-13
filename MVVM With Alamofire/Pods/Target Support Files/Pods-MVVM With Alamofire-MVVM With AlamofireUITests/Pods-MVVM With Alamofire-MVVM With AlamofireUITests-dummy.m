@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_MVVM_With_Alamofire_MVVM_With_AlamofireUITests : NSObject
-@end
-@implementation PodsDummy_Pods_MVVM_With_Alamofire_MVVM_With_AlamofireUITests
-@end

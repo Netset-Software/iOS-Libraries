@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE64559026C3E6F000D08AD7 /* AMShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64558F26C3E6F000D08AD7 /* AMShimmer.swift */; };
+		AE7A96C926C3886D003917EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7A96C826C3886D003917EC /* AppDelegate.swift */; };
+		AE7A96CB26C3886D003917EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7A96CA26C3886D003917EC /* SceneDelegate.swift */; };
+		AE7A96D026C3886D003917EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE7A96CE26C3886D003917EC /* Main.storyboard */; };
+		AE7A96D226C3886F003917EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE7A96D126C3886F003917EC /* Assets.xcassets */; };
+		AE7A96D526C3886F003917EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE7A96D326C3886F003917EC /* LaunchScreen.storyboard */; };
+		AE7A96E026C3886F003917EC /* Shiemmer_EffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7A96DF26C3886F003917EC /* Shiemmer_EffectTests.swift */; };
+		AE7A96EB26C3886F003917EC /* Shiemmer_EffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7A96EA26C3886F003917EC /* Shiemmer_EffectUITests.swift */; };
+		AE7A96FC26C38919003917EC /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7A96FB26C38919003917EC /* ListVC.swift */; };
+		AE7A970426C38929003917EC /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7A970326C38929003917EC /* CollectionVC.swift */; };
+		AE7A971326C3A7F0003917EC /* ChooseShiemmerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7A971226C3A7F0003917EC /* ChooseShiemmerType.swift */; };
+		AE7A971826C3A835003917EC /* AppStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7A971726C3A835003917EC /* AppStructure.swift */; };
+		AE7A972026C3AEB0003917EC /* CustomViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7A971F26C3AEB0003917EC /* CustomViewVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE7A96DC26C3886F003917EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE7A96BD26C3886D003917EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE7A96C426C3886D003917EC;
+			remoteInfo = "Shiemmer Effect";
+		};
+		AE7A96E726C3886F003917EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE7A96BD26C3886D003917EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE7A96C426C3886D003917EC;
+			remoteInfo = "Shiemmer Effect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE64558F26C3E6F000D08AD7 /* AMShimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMShimmer.swift; sourceTree = "<group>"; };
+		AE7A96C526C3886D003917EC /* Shiemmer Effect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shiemmer Effect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7A96C826C3886D003917EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE7A96CA26C3886D003917EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE7A96CF26C3886D003917EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE7A96D126C3886F003917EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE7A96D426C3886F003917EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE7A96D626C3886F003917EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE7A96DB26C3886F003917EC /* Shiemmer EffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shiemmer EffectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7A96DF26C3886F003917EC /* Shiemmer_EffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shiemmer_EffectTests.swift; sourceTree = "<group>"; };
+		AE7A96E126C3886F003917EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE7A96E626C3886F003917EC /* Shiemmer EffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shiemmer EffectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7A96EA26C3886F003917EC /* Shiemmer_EffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shiemmer_EffectUITests.swift; sourceTree = "<group>"; };
+		AE7A96EC26C3886F003917EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE7A96FB26C38919003917EC /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		AE7A970326C38929003917EC /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		AE7A971226C3A7F0003917EC /* ChooseShiemmerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseShiemmerType.swift; sourceTree = "<group>"; };
+		AE7A971726C3A835003917EC /* AppStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStructure.swift; sourceTree = "<group>"; };
+		AE7A971F26C3AEB0003917EC /* CustomViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE7A96C226C3886D003917EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7A96D826C3886F003917EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7A96E326C3886F003917EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE7A96BC26C3886D003917EC = {
+			isa = PBXGroup;
+			children = (
+				AE7A96C726C3886D003917EC /* Shiemmer Effect */,
+				AE7A96DE26C3886F003917EC /* Shiemmer EffectTests */,
+				AE7A96E926C3886F003917EC /* Shiemmer EffectUITests */,
+				AE7A96C626C3886D003917EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE7A96C626C3886D003917EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE7A96C526C3886D003917EC /* Shiemmer Effect.app */,
+				AE7A96DB26C3886F003917EC /* Shiemmer EffectTests.xctest */,
+				AE7A96E626C3886F003917EC /* Shiemmer EffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE7A96C726C3886D003917EC /* Shiemmer Effect */ = {
+			isa = PBXGroup;
+			children = (
+				AE7A972B26C3B03C003917EC /* Controllers */,
+				AE7A972A26C3B032003917EC /* Views */,
+				AE7A972426C3AF85003917EC /* Supporting Files */,
+				AE7A96D126C3886F003917EC /* Assets.xcassets */,
+				AE7A96D626C3886F003917EC /* Info.plist */,
+			);
+			path = "Shiemmer Effect";
+			sourceTree = "<group>";
+		};
+		AE7A96DE26C3886F003917EC /* Shiemmer EffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE7A96DF26C3886F003917EC /* Shiemmer_EffectTests.swift */,
+				AE7A96E126C3886F003917EC /* Info.plist */,
+			);
+			path = "Shiemmer EffectTests";
+			sourceTree = "<group>";
+		};
+		AE7A96E926C3886F003917EC /* Shiemmer EffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE7A96EA26C3886F003917EC /* Shiemmer_EffectUITests.swift */,
+				AE7A96EC26C3886F003917EC /* Info.plist */,
+			);
+			path = "Shiemmer EffectUITests";
+			sourceTree = "<group>";
+		};
+		AE7A972426C3AF85003917EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE7A972C26C3B069003917EC /* App Structure */,
+				AE7A972526C3AFB9003917EC /* Shiemmer Effect */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE7A972526C3AFB9003917EC /* Shiemmer Effect */ = {
+			isa = PBXGroup;
+			children = (
+				AE64558F26C3E6F000D08AD7 /* AMShimmer.swift */,
+			);
+			path = "Shiemmer Effect";
+			sourceTree = "<group>";
+		};
+		AE7A972A26C3B032003917EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE7A96CE26C3886D003917EC /* Main.storyboard */,
+				AE7A96D326C3886F003917EC /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AE7A972B26C3B03C003917EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE7A971F26C3AEB0003917EC /* CustomViewVC.swift */,
+				AE7A96C826C3886D003917EC /* AppDelegate.swift */,
+				AE7A96CA26C3886D003917EC /* SceneDelegate.swift */,
+				AE7A96FB26C38919003917EC /* ListVC.swift */,
+				AE7A970326C38929003917EC /* CollectionVC.swift */,
+				AE7A971226C3A7F0003917EC /* ChooseShiemmerType.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AE7A972C26C3B069003917EC /* App Structure */ = {
+			isa = PBXGroup;
+			children = (
+				AE7A971726C3A835003917EC /* AppStructure.swift */,
+			);
+			path = "App Structure";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE7A96C426C3886D003917EC /* Shiemmer Effect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7A96EF26C3886F003917EC /* Build configuration list for PBXNativeTarget "Shiemmer Effect" */;
+			buildPhases = (
+				AE7A96C126C3886D003917EC /* Sources */,
+				AE7A96C226C3886D003917EC /* Frameworks */,
+				AE7A96C326C3886D003917EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shiemmer Effect";
+			productName = "Shiemmer Effect";
+			productReference = AE7A96C526C3886D003917EC /* Shiemmer Effect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE7A96DA26C3886F003917EC /* Shiemmer EffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7A96F226C3886F003917EC /* Build configuration list for PBXNativeTarget "Shiemmer EffectTests" */;
+			buildPhases = (
+				AE7A96D726C3886F003917EC /* Sources */,
+				AE7A96D826C3886F003917EC /* Frameworks */,
+				AE7A96D926C3886F003917EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE7A96DD26C3886F003917EC /* PBXTargetDependency */,
+			);
+			name = "Shiemmer EffectTests";
+			productName = "Shiemmer EffectTests";
+			productReference = AE7A96DB26C3886F003917EC /* Shiemmer EffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE7A96E526C3886F003917EC /* Shiemmer EffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7A96F526C3886F003917EC /* Build configuration list for PBXNativeTarget "Shiemmer EffectUITests" */;
+			buildPhases = (
+				AE7A96E226C3886F003917EC /* Sources */,
+				AE7A96E326C3886F003917EC /* Frameworks */,
+				AE7A96E426C3886F003917EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE7A96E826C3886F003917EC /* PBXTargetDependency */,
+			);
+			name = "Shiemmer EffectUITests";
+			productName = "Shiemmer EffectUITests";
+			productReference = AE7A96E626C3886F003917EC /* Shiemmer EffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE7A96BD26C3886D003917EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AE7A96C426C3886D003917EC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					AE7A96DA26C3886F003917EC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AE7A96C426C3886D003917EC;
+					};
+					AE7A96E526C3886F003917EC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AE7A96C426C3886D003917EC;
+					};
+				};
+			};
+			buildConfigurationList = AE7A96C026C3886D003917EC /* Build configuration list for PBXProject "Shiemmer Effect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE7A96BC26C3886D003917EC;
+			productRefGroup = AE7A96C626C3886D003917EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE7A96C426C3886D003917EC /* Shiemmer Effect */,
+				AE7A96DA26C3886F003917EC /* Shiemmer EffectTests */,
+				AE7A96E526C3886F003917EC /* Shiemmer EffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE7A96C326C3886D003917EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7A96D526C3886F003917EC /* LaunchScreen.storyboard in Resources */,
+				AE7A96D226C3886F003917EC /* Assets.xcassets in Resources */,
+				AE7A96D026C3886D003917EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7A96D926C3886F003917EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7A96E426C3886F003917EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE7A96C126C3886D003917EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7A971826C3A835003917EC /* AppStructure.swift in Sources */,
+				AE7A96FC26C38919003917EC /* ListVC.swift in Sources */,
+				AE7A971326C3A7F0003917EC /* ChooseShiemmerType.swift in Sources */,
+				AE64559026C3E6F000D08AD7 /* AMShimmer.swift in Sources */,
+				AE7A972026C3AEB0003917EC /* CustomViewVC.swift in Sources */,
+				AE7A96C926C3886D003917EC /* AppDelegate.swift in Sources */,
+				AE7A970426C38929003917EC /* CollectionVC.swift in Sources */,
+				AE7A96CB26C3886D003917EC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7A96D726C3886F003917EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7A96E026C3886F003917EC /* Shiemmer_EffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7A96E226C3886F003917EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7A96EB26C3886F003917EC /* Shiemmer_EffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE7A96DD26C3886F003917EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE7A96C426C3886D003917EC /* Shiemmer Effect */;
+			targetProxy = AE7A96DC26C3886F003917EC /* PBXContainerItemProxy */;
+		};
+		AE7A96E826C3886F003917EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE7A96C426C3886D003917EC /* Shiemmer Effect */;
+			targetProxy = AE7A96E726C3886F003917EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE7A96CE26C3886D003917EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE7A96CF26C3886D003917EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE7A96D326C3886F003917EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE7A96D426C3886F003917EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE7A96ED26C3886F003917EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE7A96EE26C3886F003917EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE7A96F026C3886F003917EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFWPJ5FTY4;
+				INFOPLIST_FILE = "Shiemmer Effect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shiemmer-Effect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AE7A96F126C3886F003917EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFWPJ5FTY4;
+				INFOPLIST_FILE = "Shiemmer Effect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shiemmer-Effect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AE7A96F326C3886F003917EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFWPJ5FTY4;
+				INFOPLIST_FILE = "Shiemmer EffectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shiemmer-EffectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shiemmer Effect.app/Shiemmer Effect";
+			};
+			name = Debug;
+		};
+		AE7A96F426C3886F003917EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFWPJ5FTY4;
+				INFOPLIST_FILE = "Shiemmer EffectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shiemmer-EffectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shiemmer Effect.app/Shiemmer Effect";
+			};
+			name = Release;
+		};
+		AE7A96F626C3886F003917EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFWPJ5FTY4;
+				INFOPLIST_FILE = "Shiemmer EffectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shiemmer-EffectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shiemmer Effect";
+			};
+			name = Debug;
+		};
+		AE7A96F726C3886F003917EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFWPJ5FTY4;
+				INFOPLIST_FILE = "Shiemmer EffectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shiemmer-EffectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shiemmer Effect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE7A96C026C3886D003917EC /* Build configuration list for PBXProject "Shiemmer Effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7A96ED26C3886F003917EC /* Debug */,
+				AE7A96EE26C3886F003917EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7A96EF26C3886F003917EC /* Build configuration list for PBXNativeTarget "Shiemmer Effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7A96F026C3886F003917EC /* Debug */,
+				AE7A96F126C3886F003917EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7A96F226C3886F003917EC /* Build configuration list for PBXNativeTarget "Shiemmer EffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7A96F326C3886F003917EC /* Debug */,
+				AE7A96F426C3886F003917EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7A96F526C3886F003917EC /* Build configuration list for PBXNativeTarget "Shiemmer EffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7A96F626C3886F003917EC /* Debug */,
+				AE7A96F726C3886F003917EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE7A96BD26C3886D003917EC /* Project object */;
+}
