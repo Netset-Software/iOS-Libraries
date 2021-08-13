@@ -30,13 +30,14 @@ Just drag the `AMShimmer.swift` files into your project.
 
 ## Usage
 For Start -
-swift
+```swift
 AMShimmer.start(for: view)
+```
 
 For Stop -
-swift
+```swift
 AMShimmer.stop(for: view)
-
+```
 
 For Customization -
 ```swift
