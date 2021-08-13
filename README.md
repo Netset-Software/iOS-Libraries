@@ -32,6 +32,5 @@ The objective of this sample is to fetch data from server using alamofire server
 
 
  ####  Demo Video
-
- ![](MVVmGif.gif )
+ ![](MVVMGif.gif )
 
