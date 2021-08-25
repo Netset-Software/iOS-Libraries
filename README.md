@@ -27,6 +27,13 @@ The objective of this sample is to persist data using core data framework.
 
 
 
- ####  Demo Video
- ![](sample.gif )
+## Output
+
+<table>
+
+  <td>
+<img src="https://github.com/Netset-Software/iOS-Libraries/blob/CoreData/sample.gif" width="330" height="600">
+</td>
+  
+  </table>
 
